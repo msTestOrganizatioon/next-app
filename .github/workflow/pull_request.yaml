@@ -8,3 +8,11 @@ jobs:
     steps:
       -name: hello world
       uses: echo "Hello world"
+  hello-mayya-job:
+    runs_on: ubuntu-latest
+    steps:
+      -name: hello pesho
+      uses: echo "Hello Pesho"
+
+
+
