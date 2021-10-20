@@ -10,5 +10,5 @@ runs:
   using: composite
   steps:
     - name: say hello
-      run: echo "${{ input.my_input }}"
+      run: echo "${{ inputs.my_input }}"
       shell: bash
