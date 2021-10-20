@@ -1,0 +1,9 @@
+name: hello-world-action
+description: "hello world"
+
+runs:
+  using: composite
+  steps:
+    - name: say hello
+      run: echo "helloo"
+      shell: bash
