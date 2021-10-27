@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d885f517-4c84-41b8-8b13-4b448a17481e" name="Changes" comment="" />
+    <list default="true" id="d885f517-4c84-41b8-8b13-4b448a17481e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/release.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/release.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,7 +63,7 @@
       <workItem from="1633696129865" duration="3729000" />
       <workItem from="1634282234787" duration="5541000" />
       <workItem from="1634714304550" duration="3287000" />
-      <workItem from="1635322239491" duration="301000" />
+      <workItem from="1635322239491" duration="1978000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1633696965694</created>
@@ -160,7 +163,21 @@
       <option name="project" value="LOCAL" />
       <updated>1635322394153</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="fix version">
+      <created>1635322693809</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1635322693809</updated>
+    </task>
+    <task id="LOCAL-00016" summary="fix version 2.0">
+      <created>1635322842699</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1635322842699</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,7 +187,9 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="release yaml" />
     <MESSAGE value="delete unnecessary" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete unnecessary" />
+    <MESSAGE value="fix version" />
+    <MESSAGE value="fix version 2.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix version 2.0" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
