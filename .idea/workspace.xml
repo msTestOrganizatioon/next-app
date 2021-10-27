@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d885f517-4c84-41b8-8b13-4b448a17481e" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/release.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/pull_request.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/pull_request.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="d885f517-4c84-41b8-8b13-4b448a17481e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -141,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634717396141</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="release yaml">
+      <created>1635322123258</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1635322123258</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,7 +151,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="release yaml" />
+    <option name="LAST_COMMIT_MESSAGE" value="release yaml" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>

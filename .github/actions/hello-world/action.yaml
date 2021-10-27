@@ -1,14 +1,15 @@
 name: hello-world-action
-description: "hello world"
+description: "hello world action"
 
 inputs:
   my_input:
-    description: "my test"
+    description: "my test inputs"
     required: true
-
+    # default: "1"
+    
 runs:
   using: composite
   steps:
-    - name: say hello
+    - name: say greeting
       run: echo "${{ inputs.my_input }}"
       shell: bash
