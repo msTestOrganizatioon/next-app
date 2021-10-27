@@ -1,25 +1,23 @@
-name: hello-world
+name: pull_request
 
-on: [push]
+on: [pull_request]
 
 jobs:
-  hello-world-job:
-    runs-on: ubuntu-latest
-    steps:
-      - name: checkout
-        uses: actions/checkout@v2
+  test-code:
+  runs-on: ubuntu-latest
 
-      - name: say hello world
-        uses: ./.github/actions/hello-world
-        with:
-          my_input: "hello from inputs"
+steps:
+  - uses: actions/checkout@v2 # by default the latest commit
+  - uses: actions/setup-node@v2
 
-  hello-mayya-job:
-    needs: [hello-world-job]
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo "Hello Mayya"
-        name: say hello Mayya
+with:
+  node-version: "14.17.0"
+  - name: install deps
+    run: yarn install
+  - name: lint
+    run: yarn lint
+  - name: test
+    run: yarn test
+  - name: build
 
-
-
+run: yarn build
